@@ -13,6 +13,7 @@
 		F94E5B2E1DE24C460051AF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94E5B2D1DE24C460051AF6E /* Assets.xcassets */; };
 		F94E5B311DE24C460051AF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94E5B2F1DE24C460051AF6E /* LaunchScreen.storyboard */; };
 		F94E5B391DE254040051AF6E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E5B381DE254040051AF6E /* Board.swift */; };
+		F9ECBD471DE2713600B9B71A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECBD461DE2713600B9B71A /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F94E5B301DE24C460051AF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94E5B321DE24C460051AF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94E5B381DE254040051AF6E /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F9ECBD461DE2713600B9B71A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F94E5B261DE24C460051AF6E /* AppDelegate.swift */,
 				F94E5B281DE24C460051AF6E /* ViewController.swift */,
 				F94E5B381DE254040051AF6E /* Board.swift */,
+				F9ECBD461DE2713600B9B71A /* Player.swift */,
 				F94E5B2A1DE24C460051AF6E /* Main.storyboard */,
 				F94E5B2D1DE24C460051AF6E /* Assets.xcassets */,
 				F94E5B2F1DE24C460051AF6E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9ECBD471DE2713600B9B71A /* Player.swift in Sources */,
 				F94E5B291DE24C460051AF6E /* ViewController.swift in Sources */,
 				F94E5B271DE24C460051AF6E /* AppDelegate.swift in Sources */,
 				F94E5B391DE254040051AF6E /* Board.swift in Sources */,
@@ -303,6 +307,7 @@
 				F94E5B371DE24C460051AF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
